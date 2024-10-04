@@ -29,7 +29,7 @@
     "test": "vitest run",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
-    "gha-release": "npm run build && changeset version && changeset publish",
+    "gha-release": "npm run build && changeset publish",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
   },
